@@ -15,6 +15,7 @@
 		C2F0159A2399844300B7F84D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F015982399844300B7F84D /* LaunchScreen.storyboard */; };
 		C2F015A52399844400B7F84D /* CatYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F015A42399844400B7F84D /* CatYearsTests.swift */; };
 		C2F015B02399844400B7F84D /* CatYearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F015AF2399844400B7F84D /* CatYearsUITests.swift */; };
+		C2F015BE239984EF00B7F84D /* cat-1508613_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2F015BD239984EF00B7F84D /* cat-1508613_960_720.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C2F015AB2399844400B7F84D /* CatYearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatYearsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F015AF2399844400B7F84D /* CatYearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatYearsUITests.swift; sourceTree = "<group>"; };
 		C2F015B12399844400B7F84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F015BD239984EF00B7F84D /* cat-1508613_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-1508613_960_720.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C2F015912399844200B7F84D /* ViewController.swift */,
 				C2F015932399844200B7F84D /* Main.storyboard */,
 				C2F015962399844300B7F84D /* Assets.xcassets */,
+				C2F015BD239984EF00B7F84D /* cat-1508613_960_720.jpg */,
 				C2F015982399844300B7F84D /* LaunchScreen.storyboard */,
 				C2F0159B2399844300B7F84D /* Info.plist */,
 			);
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F0159A2399844300B7F84D /* LaunchScreen.storyboard in Resources */,
+				C2F015BE239984EF00B7F84D /* cat-1508613_960_720.jpg in Resources */,
 				C2F015972399844300B7F84D /* Assets.xcassets in Resources */,
 				C2F015952399844200B7F84D /* Main.storyboard in Resources */,
 			);
