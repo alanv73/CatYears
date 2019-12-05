@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnCalculate(_ sender: Any) {
-        let catAge = Int(floor(Double(txtAge.text!) ?? 0)) * 7;
+        let catAge = Int(floor((Double(txtAge.text!) ?? 0) * 7));
         
         if catAge == 0 {
             alert("Please Enter a Number")
