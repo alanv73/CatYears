@@ -20,10 +20,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnCalculate(_ sender: Any) {
-        let stringAge = txtAge.text ?? "";
-        let humanAge = Int(stringAge) ?? 0;
-        let catAge = humanAge * 7;
-        lblOutput.text = "Your Cat is\n\(catAge) Cat-Years Old";
+        let catAge = Int(floor(Double(txtAge.text!) ?? 0)) * 7;
+        
+        if catAge == 0 {
+            alert("Please Enter a Number")
+        } else {
+            lblOutput.text = "Your Cat is\n\(catAge) Cat-Years Old";
+        }
+    }
+    
+    func alert(_ stringMessage: String){
+        let ac = UIAlertController(title: "Cat Age Conversion", message: stringMessage, preferredStyle: UIAlertController.Style.alert)
+        
+        ac.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(ac, animated: true, completion: nil)
     }
     
 }
